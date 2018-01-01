@@ -4,15 +4,15 @@ See the README.md file of this repository for background information on this dat
 
 The structure of the data set is described in the Data section, its variables are listed in the Variables section, and the transformations that were carried out to obtain the data set based on the source data are presented in the Transformations section.
 
-Data
+#Data
 The tidy_data.txt data file is a text file, containing space-separated values.
 
 The first row contains the names of the variables, which are listed and described in the Variables section, and the following rows contain the values of these variables.
 
-Variables
+#Variables
 Each row contains, for a given subject and activity, 79 averaged signal measurements.
 
-Identifiers
+#Identifiers
 subject
 
 Subject identifier, integer, ranges from 1 to 30.
@@ -76,6 +76,7 @@ Average time-domain body angular velocity in the X, Y and Z directions:
 timeDomainBodyGyroscopeMeanX
 timeDomainBodyGyroscopeMeanY
 timeDomainBodyGyroscopeMeanZ
+
 Standard deviation of the time-domain body angular velocity in the X, Y and Z directions:
 
 timeDomainBodyGyroscopeStandardDeviationX
@@ -177,7 +178,7 @@ Average, standard deviation, and weighted average of the frequency components of
 frequencyDomainBodyGyroscopeJerkMagnitudeMean
 frequencyDomainBodyGyroscopeJerkMagnitudeStandardDeviation
 frequencyDomainBodyGyroscopeJerkMagnitudeMeanFrequency
-Transformations
+#Transformations
 The zip file containing the source data is located at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 
 The following transformations were applied to the source data:
